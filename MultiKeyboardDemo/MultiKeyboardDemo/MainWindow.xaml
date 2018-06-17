@@ -1,0 +1,30 @@
+﻿<Window x:Class="MultiKeyboardDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiKeyboardDemo"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Simple Multi Keyboard Demo" Height="350" Width="525">
+    <StackPanel>
+
+        <TextBlock TextWrapping="Wrap" Padding="0 0 0 10">Plug in as many keyboards you'd like and start typing on them. The list below will populate with the last pressed key per keyboard (device handle)</TextBlock>
+        
+        <StackPanel Orientation="Horizontal" >
+            <TextBlock Text="Device" MinWidth="100" Padding="5 0 0 0" />
+            <TextBlock Text="Key" Padding="10 0 0 0" />
+        </StackPanel>
+
+        <ListBox ItemsSource="{Binding Keyboards}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Device}" MinWidth="100" />
+                        <TextBlock Text="{Binding Key}" Padding="4 0 0 0" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>

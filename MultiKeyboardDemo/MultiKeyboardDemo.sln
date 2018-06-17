@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiKeyboardDemo", "MultiKeyboardDemo\MultiKeyboardDemo.csproj", "{368AEA27-6B43-4068-A752-69036480F61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiKeyboardLib", "MultiKeyboardLib\MultiKeyboardLib.csproj", "{11CC02AA-1A45-44E1-8D2E-4A57ECD0EAFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{368AEA27-6B43-4068-A752-69036480F61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368AEA27-6B43-4068-A752-69036480F61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368AEA27-6B43-4068-A752-69036480F61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368AEA27-6B43-4068-A752-69036480F61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CC02AA-1A45-44E1-8D2E-4A57ECD0EAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CC02AA-1A45-44E1-8D2E-4A57ECD0EAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CC02AA-1A45-44E1-8D2E-4A57ECD0EAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CC02AA-1A45-44E1-8D2E-4A57ECD0EAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED7B4B6-C215-4156-A541-2459A2A79EAB}
+	EndGlobalSection
+EndGlobal
